@@ -17,8 +17,8 @@ function WinnerPopUp(){
            <h1> {Turn.charAt(0).toUpperCase() + Turn.slice(1)} Player Won!</h1>
             <h2> Thank you for Playing! </h2>
             <div className="ButtonArea">
-                <button id="Retry"> Play Again </button>
-                <button id="Home"> Home </button>
+                <button onClick={() => window.location.reload()} id="Retry"> Play Again </button>
+                <button onClick={() => window.location.href = '/'}> Home </button>
             </div>
         </div>
     </div>

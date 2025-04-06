@@ -41,9 +41,9 @@ export const handleDrop = (ev) => {
         MyPiece.classList.remove("Pawn")
         MyPiece.classList.add("Queen")
         if (MyColor === "black"){
-            MyPiece.setAttribute("src", "/pieces/queen_black.png")
+            MyPiece.setAttribute("src", `${process.env.PUBLIC_URL}/pieces/queen_black.png`)
         }else{
-            MyPiece.setAttribute("src", "/pieces/queen_white.png")
+            MyPiece.setAttribute("src", `${process.env.PUBLIC_URL}/pieces/queen_white.png`)
         }
     }
 
