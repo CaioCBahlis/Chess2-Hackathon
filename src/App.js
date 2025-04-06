@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function FuncHeader(){
   return (
-      <div className="Header"> Hello, World </div>
+      <div className="Header"> </div>
   )
 }
 function WinnerPopUp(){
